@@ -1,0 +1,127 @@
+.main {
+    padding: 25px;
+}
+
+body{
+    background: rgb(208,20,200);
+    background: linear-gradient(90deg, rgba(208,20,200,1) 0%, rgba(121,9,117,1) 48%, rgba(255,0,116,1) 77%);
+}
+
+#titulo {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+  
+  
+.datena {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px rgb(83, 5, 58);
+}
+
+footer{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+#video {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+#jap{
+    font-family: "Noto Sans JP";
+}
+
+.datena:hover{
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+      animation: shake 0.5s;
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+    }
+    /* I Know the css is huge but that is so the transition of rotations is smooth and the wobble is also very dramatic*/
+    @keyframes shake {
+      0% {
+        transform: rotate(2deg);
+      }
+  
+      5% {
+        transform: rotate(4deg);
+      }
+  
+      10% {
+        transform: rotate(6deg);
+      }
+  
+      15% {
+        transform: rotate(8deg);
+      }
+  
+      20% {
+        transform: rotate(10deg);
+      }
+  
+      25% {
+        transform: rotate(8deg);
+      }
+  
+      30% {
+        transform: rotate(6deg);
+      }
+  
+      35% {
+        transform: rotate(4deg);
+      }
+  
+      40% {
+        transform: rotate(2deg);
+      }
+  
+      45% {
+        transform: rotate(0deg);
+      }
+  
+      50% {
+        transform: rotate(-2deg);
+      }
+  
+      55% {
+        transform: rotate(-4deg);
+      }
+  
+      60% {
+        transform: rotate(-6deg);
+      }
+  
+      65% {
+        transform: rotate(-8deg);
+      }
+  
+      70% {
+        transform: rotate(-10deg);
+      }
+  
+      75% {
+        transform: rotate(-8deg);
+      }
+  
+      80% {
+        transform: rotate(-6deg);
+      }
+  
+      85% {
+        transform: rotate(-4deg);
+      }
+  
+      90% {
+        transform: rotate(-2deg);
+      }
+  
+      100% {
+        transform: rotate(0deg);
+      }
+}
+
